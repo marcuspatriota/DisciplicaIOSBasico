@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921E388124B2AF77007B0E37 /* VitoriasPaisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E388024B2AF77007B0E37 /* VitoriasPaisTableViewCell.swift */; };
+		9239C3D9249AE8630052F00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239C3D8249AE8630052F00B /* AppDelegate.swift */; };
+		9239C3DB249AE8630052F00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239C3DA249AE8630052F00B /* SceneDelegate.swift */; };
+		9239C3E0249AE8630052F00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9239C3DE249AE8630052F00B /* Main.storyboard */; };
+		9239C3E5249AE8630052F00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9239C3E3249AE8630052F00B /* LaunchScreen.storyboard */; };
+		9239C3FD249AEA360052F00B /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9239C3FC249AEA360052F00B /* Asset.xcassets */; };
+		924BC87E24B400470037840B /* VitoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924BC87D24B400470037840B /* VitoriasViewController.swift */; };
+		927C6C5D249C1779000F46D8 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 927C6C5C249C1779000F46D8 /* winners.json */; };
+		927C6C63249C1A5E000F46D8 /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C6C62249C1A5E000F46D8 /* WorldCupViewController.swift */; };
+		927C6C66249C1C7E000F46D8 /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C6C65249C1C7E000F46D8 /* WorldCup.swift */; };
+		927C6C68249C23A4000F46D8 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C6C67249C23A4000F46D8 /* WinnersTableViewController.swift */; };
+		927C6C6A249C3D9B000F46D8 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C6C69249C3D9B000F46D8 /* WorldCupTableViewCell.swift */; };
+		928BCE0B24B291F00086C9C1 /* PaisesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BCE0A24B291F00086C9C1 /* PaisesCollectionViewCell.swift */; };
+		928BCE0D24B293470086C9C1 /* PaisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928BCE0C24B293470086C9C1 /* PaisesViewController.swift */; };
+		9299215624ABFD2A00552086 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9299215524ABFD2A00552086 /* GamesTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		921E388024B2AF77007B0E37 /* VitoriasPaisTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitoriasPaisTableViewCell.swift; sourceTree = "<group>"; };
+		9239C3D5249AE8630052F00B /* CampoesCopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampoesCopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9239C3D8249AE8630052F00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9239C3DA249AE8630052F00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9239C3DF249AE8630052F00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9239C3E4249AE8630052F00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9239C3E6249AE8630052F00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9239C3FC249AEA360052F00B /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		924BC87D24B400470037840B /* VitoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitoriasViewController.swift; sourceTree = "<group>"; };
+		927C6C5C249C1779000F46D8 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winners.json; path = "../../../../Downloads/Arquivos CampeoesDaCopa 2/winners.json"; sourceTree = "<group>"; };
+		927C6C62249C1A5E000F46D8 /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
+		927C6C65249C1C7E000F46D8 /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		927C6C67249C23A4000F46D8 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
+		927C6C69249C3D9B000F46D8 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		928BCE0A24B291F00086C9C1 /* PaisesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesCollectionViewCell.swift; sourceTree = "<group>"; };
+		928BCE0C24B293470086C9C1 /* PaisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesViewController.swift; sourceTree = "<group>"; };
+		9299215524ABFD2A00552086 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9239C3D2249AE8630052F00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9239C3CC249AE8630052F00B = {
+			isa = PBXGroup;
+			children = (
+				9239C3D7249AE8630052F00B /* CampoesCopa */,
+				9239C3D6249AE8630052F00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9239C3D6249AE8630052F00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9239C3D5249AE8630052F00B /* CampoesCopa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9239C3D7249AE8630052F00B /* CampoesCopa */ = {
+			isa = PBXGroup;
+			children = (
+				927C6C64249C1C5D000F46D8 /* Model */,
+				927C6C5B249C173F000F46D8 /* Files */,
+				9239C3D8249AE8630052F00B /* AppDelegate.swift */,
+				9239C3DA249AE8630052F00B /* SceneDelegate.swift */,
+				927C6C5E249C196E000F46D8 /* Views */,
+				9239C3E6249AE8630052F00B /* Info.plist */,
+				9239C3FC249AEA360052F00B /* Asset.xcassets */,
+				927C6C61249C1A10000F46D8 /* Controllers */,
+			);
+			path = CampoesCopa;
+			sourceTree = "<group>";
+		};
+		927C6C5B249C173F000F46D8 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				927C6C5C249C1779000F46D8 /* winners.json */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		927C6C5E249C196E000F46D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9239C3DE249AE8630052F00B /* Main.storyboard */,
+				9239C3E3249AE8630052F00B /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		927C6C61249C1A10000F46D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				927C6C69249C3D9B000F46D8 /* WorldCupTableViewCell.swift */,
+				927C6C62249C1A5E000F46D8 /* WorldCupViewController.swift */,
+				927C6C67249C23A4000F46D8 /* WinnersTableViewController.swift */,
+				9299215524ABFD2A00552086 /* GamesTableViewCell.swift */,
+				928BCE0A24B291F00086C9C1 /* PaisesCollectionViewCell.swift */,
+				928BCE0C24B293470086C9C1 /* PaisesViewController.swift */,
+				921E388024B2AF77007B0E37 /* VitoriasPaisTableViewCell.swift */,
+				924BC87D24B400470037840B /* VitoriasViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		927C6C64249C1C5D000F46D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				927C6C65249C1C7E000F46D8 /* WorldCup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9239C3D4249AE8630052F00B /* CampoesCopa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9239C3E9249AE8630052F00B /* Build configuration list for PBXNativeTarget "CampoesCopa" */;
+			buildPhases = (
+				9239C3D1249AE8630052F00B /* Sources */,
+				9239C3D2249AE8630052F00B /* Frameworks */,
+				9239C3D3249AE8630052F00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampoesCopa;
+			productName = CampoesCopa;
+			productReference = 9239C3D5249AE8630052F00B /* CampoesCopa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9239C3CD249AE8630052F00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = cesar;
+				TargetAttributes = {
+					9239C3D4249AE8630052F00B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9239C3D0249AE8630052F00B /* Build configuration list for PBXProject "CampoesCopa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9239C3CC249AE8630052F00B;
+			productRefGroup = 9239C3D6249AE8630052F00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9239C3D4249AE8630052F00B /* CampoesCopa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9239C3D3249AE8630052F00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9239C3FD249AEA360052F00B /* Asset.xcassets in Resources */,
+				9239C3E5249AE8630052F00B /* LaunchScreen.storyboard in Resources */,
+				927C6C5D249C1779000F46D8 /* winners.json in Resources */,
+				9239C3E0249AE8630052F00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9239C3D1249AE8630052F00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C6C68249C23A4000F46D8 /* WinnersTableViewController.swift in Sources */,
+				928BCE0D24B293470086C9C1 /* PaisesViewController.swift in Sources */,
+				9239C3D9249AE8630052F00B /* AppDelegate.swift in Sources */,
+				921E388124B2AF77007B0E37 /* VitoriasPaisTableViewCell.swift in Sources */,
+				927C6C66249C1C7E000F46D8 /* WorldCup.swift in Sources */,
+				9299215624ABFD2A00552086 /* GamesTableViewCell.swift in Sources */,
+				927C6C6A249C3D9B000F46D8 /* WorldCupTableViewCell.swift in Sources */,
+				928BCE0B24B291F00086C9C1 /* PaisesCollectionViewCell.swift in Sources */,
+				924BC87E24B400470037840B /* VitoriasViewController.swift in Sources */,
+				927C6C63249C1A5E000F46D8 /* WorldCupViewController.swift in Sources */,
+				9239C3DB249AE8630052F00B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9239C3DE249AE8630052F00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9239C3DF249AE8630052F00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9239C3E3249AE8630052F00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9239C3E4249AE8630052F00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9239C3E7249AE8630052F00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9239C3E8249AE8630052F00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9239C3EA249AE8630052F00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CampoesCopa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.aula3.CampoesCopa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9239C3EB249AE8630052F00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CampoesCopa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.aula3.CampoesCopa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9239C3D0249AE8630052F00B /* Build configuration list for PBXProject "CampoesCopa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9239C3E7249AE8630052F00B /* Debug */,
+				9239C3E8249AE8630052F00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9239C3E9249AE8630052F00B /* Build configuration list for PBXNativeTarget "CampoesCopa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9239C3EA249AE8630052F00B /* Debug */,
+				9239C3EB249AE8630052F00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9239C3CD249AE8630052F00B /* Project object */;
+}
